@@ -2,7 +2,7 @@
 /*
   * plugins/generic/customLocale/css/customLocale.css
   *
-  * Copyright (c) 2016 Language Science Press
+  * Copyright (c) 2015 Language Science Press
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
 */
@@ -11,27 +11,32 @@
 	background-color: #A9E2F3; 
 }
 
-td.input {
-	border-top: 1px solid #999;
-	padding: 15px 10px 5px 10px;
+input, textArea {
+	background-color:#eee;
 }
 
 input.valueChanged, textArea.valueChanged {
-	background-color:#FFFF93 !important;
+	background-color:#FFFF93;
 }
 
-input, textArea {
-	background-color:#eee !important;
+input.default, textArea.default {
+	margin-bottom: 10px;
+}
+
+#searchString {
+	width: 520px;
+	margin: 0px 30px 0px 0px;
+	padding: 0;
+}
+
+td.input {
+	border-top: 1px solid #999;
+	padding: 15px 10px 5px 10px;
 }
 
 #nextPage {
 	width:150px;
 }
 
-#searchString {
-	float:left;
-	width: 520px;
-	margin: 3px 10px 0px 0px;
-	padding: 0;
-}
+
 

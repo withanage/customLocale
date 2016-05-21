@@ -3,7 +3,7 @@
 /**
  * @file plugins/generic/customLocale/controllers/grid/CustomLocaleGridHandler.inc.php
  *
- * Copyright (c) 2016 Language Science Press
+ * Copyright (c) 2015 Language Science Press
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class CustomLocaleGridHandler
@@ -133,8 +133,9 @@ class CustomLocaleGridHandler extends GridHandler {
 
 		// Set the grid details.
 		$this->setTitle('plugins.generic.customLocale.customLocaleFiles');
+		$this->setInstructions('plugins.generic.customLocale.introductionFiles');
 		$this->setEmptyRowText('plugins.generic.customLocale.noneCreated');
-
+		
 		// Columns
 		$cellProvider = new CustomLocaleGridCellProvider();
 
@@ -162,7 +163,6 @@ class CustomLocaleGridHandler extends GridHandler {
 		$locales = $press->getSupportedLocaleNames();
 
 		$localeKeys = array_keys($locales);
-
 		$locale = $localeKeys[$filter['locale']];
 		$search = $filter['search'];
 

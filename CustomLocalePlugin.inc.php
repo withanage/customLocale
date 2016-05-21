@@ -3,7 +3,7 @@
 /**
  * @file plugins/generic/customLocale/CustomLocalePlugin.inc.php
  *
- * Copyright (c) 2016 Language Science Press
+ * Copyright (c) 2015 Language Science Press
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class CustomLocalePlugin
@@ -43,7 +43,7 @@ class CustomLocalePlugin extends GenericPlugin {
 				HookRegistry::register('PKPLocale::registerLocaleFile', array(&$this, 'addCustomLocale'));
 				HookRegistry::register('LoadComponentHandler', array($this, 'setupGridHandler'));
 				HookRegistry::register('Templates::Management::Settings::website', array($this, 'callbackShowWebsiteSettingsTabs'));
-				HookRegistry::register('LoadHandler', array($this, 'handleLoadRequest'));
+				HookRegistry::register('LoadHandler', array($this, 'callbackHandleContent'));
 			}
 
 			return true;
@@ -69,7 +69,7 @@ class CustomLocalePlugin extends GenericPlugin {
 		return false;
 	}
 
-	function handleLoadRequest($hookName, $args) {
+	function callbackHandleContent($hookName, $args) {
 
 		$request = $this -> getRequest();
 		$press   = $request -> getPress();		
@@ -81,7 +81,7 @@ class CustomLocalePlugin extends GenericPlugin {
 		$op =& $args[1];
 		$tail = "/".implode("/",$request->getRequestedArgs());
 
-		if ($page=="management" && $op=="settings" && $tail=="/printCustomLocaleChanges") {
+		if ($page=="manager" && $op=="plugin" && $tail=="/generic/customlocaleplugin/printChanges") {
 
 			$op = 'printCustomLocaleChanges';
 			define('HANDLER_CLASS', 'CustomLocaleHandler');
@@ -92,56 +92,31 @@ class CustomLocalePlugin extends GenericPlugin {
 		return false;	
 	}
 
-
 	/**
-	 * Display verbs for the management interface.
-	 * @return array Management verbs
-	 */ 
-	function getManagementVerbs() {
+	 * @copydoc Plugin::getManagementVerbLinkAction()
+	 */
+	function getManagementVerbLinkAction($request, $verb) {
+		list($verbName, $verbLocalized) = $verb;
 
-		$verbs = parent::getManagementVerbs();
-
-		if ($this->getEnabled()) {
-			$verbs[] = array('index', __('plugins.generic.customLocale.customize'));
-			$verbs[] = array('printChanges', __('plugins.generic.customLocale.printChanges'));
-		}
-
-		return $verbs;
-	}
-
-	/**
-	 * @copydoc Plugin::getActions()
-	 */ 
-	function getActions($request, $actionArgs) {
-		$dispatcher = $request->getDispatcher();
-		import('lib.pkp.classes.linkAction.request.RedirectAction');
-		return array_merge(
-			$this->getEnabled()?array(
-				new LinkAction(
-					'customize',
+		switch ($verbName) {
+			case 'index':
+				// Generate a link action for the "settings" action
+				$dispatcher = $request->getDispatcher();
+				import('lib.pkp.classes.linkAction.request.RedirectAction');
+				return new LinkAction(
+					$verbName,
 					new RedirectAction($dispatcher->url(
 						$request, ROUTE_PAGE,
 						null, 'management', 'settings', 'website',
 						array('uid' => uniqid()), // Force reload
 						'customLocale' // Anchor for tab
 					)),
-					__('plugins.generic.customLocale.customize'),
+					$verbLocalized,
 					null
-				),
-				new LinkAction(
-					'printChanges',
-					new RedirectAction($dispatcher->url(
-						$request, ROUTE_PAGE,
-						null, 'management', 'settings', 'printCustomLocaleChanges',
-						array('uid' => uniqid()), // Force reload
-						null // Anchor for tab
-					)),
-					__('plugins.generic.customLocale.printChanges'),
-					null
-				),
-			):array(),
-			parent::getActions($request, $actionArgs)
-		);
+				);		
+			default:
+				return parent::getManagementVerbLinkAction($request, $verb);
+		}
 	}
 
 	function addCustomLocale($hookName, $args) {
@@ -188,6 +163,19 @@ class CustomLocalePlugin extends GenericPlugin {
 		// Permit other plugins to continue interacting with this hook
 		return false;
 	}
+
+	function getManagementVerbs() {
+
+		$verbs = parent::getManagementVerbs();
+
+		if ($this->getEnabled()) {
+			$verbs[] = array('index', __('plugins.generic.customLocale.customize'));
+			$verbs[] = array('printChanges', __('plugins.generic.customLocale.printChanges'));
+		}
+
+		return $verbs;
+	}
+
 
 	/**
 	 * @copydoc PKPPlugin::getTemplatePath

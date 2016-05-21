@@ -4,7 +4,7 @@
 <!--
   * plugins/generic/customLocale/locale/de_DE/locale.xml
   *
-  * Copyright (c) 2016 Language Science Press
+  * Copyright (c) 2015 Language Science Press
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the de_DE (Deutsch (Deutschland)) locale.
@@ -37,6 +37,7 @@
 	<message key="plugins.generic.customLocale.customLocale">Regionaleinstellung</message>
 	<message key="plugins.generic.customLocale.files.pageTitle">Dateiname</message>
 	<message key="plugins.generic.customLocale.customLocaleFiles">Regionaleinstellungsdateien</message>
+	<message key="plugins.generic.customLocale.introductionFiles"></message>
 
 	<message key="plugins.generic.customLocale.fileDescription">Geben Sie den angepassten Text in das jeweilige Feld ein. Lassen Sie das Feld leer, wenn der OMP-Standardtext genutzt werden soll.</message>
 
