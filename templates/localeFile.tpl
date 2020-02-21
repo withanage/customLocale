@@ -62,13 +62,9 @@
 			{if $localeContents != null}{assign var=value value=$localeContents.$key}{else}{assign var=value value=''}{/if}
 			{if ($value|explode:"\n"|@count > 1) || (strlen($value) > 80) || ($referenceValue|explode:"\n"|@count > 1) || (strlen($referenceValue) > 80)}
 				{translate key="plugins.generic.customLocale.file.reference"}<br/>
-				<textarea name="junk[]" class="textArea default" rows="5" cols="50" onkeypress="return (event.keyCode >= 37 && event.keyCode <= 40);">
-{$referenceValue|escape}
-</textarea>
+				<textarea name="junk[]" class="textArea default" rows="5" cols="50" onkeypress="return (event.keyCode >= 37 && event.keyCode <= 40);">{$referenceValue|escape}</textarea>
 				{translate key="plugins.generic.customLocale.file.custom"}<br/>
-				<textarea name="changes[]" id="{$key|escape}" {if $value}class="textField valueChanged"{else}class="textArea"{/if} rows="5" cols="50">
-{$value|escape}
-</textarea>
+				<textarea name="changes[]" id="{$key|escape}" {if $value}class="textField valueChanged"{else}class="textArea"{/if} rows="5" cols="50">{$value|escape}</textarea>
 			{else}
 				{translate key="plugins.generic.customLocale.file.reference"}<br/>
 				<input name="junk[]" class="textField default" type="text" size="50" onkeypress="return (event.keyCode >= 37 && event.keyCode <= 40);" value="{$referenceValue|escape}" /><br/>
