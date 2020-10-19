@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-10-19 15:42+0000\n"
-"Last-Translator: Tom Granroth <tom.granroth@tsv.fi>\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
 "Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/fi_FI/>\n"
 "Language: fi_FI\n"
@@ -34,3 +34,53 @@ msgstr "Tiedostoja ei löytynyt."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Tallenna ja jatka"
+
+msgid "plugins.generic.customLocale.searchResultsCount"
+msgstr ""
+"Näytetään tulos {{ currentLocaleKeys.length }}/{{ filteredKeysList.length }} "
+"hakulauseesta \"{{ phraseSearched }}.\""
+
+msgid "plugins.generic.customLocale.fileDescription"
+msgstr ""
+"Kirjoita teksti mukautettavaan kenttään. Jätä kenttä tyhjäksi, jos haluat "
+"käyttää alkuperäistä käännöstä."
+
+msgid "plugins.generic.customLocale.searchDescription"
+msgstr "Anna kokonainen käännösavain. Löydetyt avaimet korostetaan."
+
+msgid "plugins.generic.customLocale.customLocale"
+msgstr "Kielialueet"
+
+msgid "plugins.generic.customLocale.file.edit"
+msgstr "Muokataan {$filename}"
+
+msgid "plugins.generic.customLocale.file.editHeader"
+msgstr "Muokauta käännösavaimia"
+
+msgid "grid.action.printChanges"
+msgstr "Lataa tiedostona kaikki mukautuksesi."
+
+msgid "plugins.generic.customLocale.customize"
+msgstr "Mukauta"
+
+msgid "plugins.generic.customLocale.localeKeyValue"
+msgstr "Käännös"
+
+msgid "plugins.generic.customLocale.localeKey.description"
+msgstr "Anna kokonainen etsittävä käännösavain."
+
+msgid "plugins.generic.customLocale.printChanges"
+msgstr "Lataa dokumentaatio"
+
+msgid "plugins.generic.customLocale.search.key"
+msgstr "Hae käännösavainta"
+
+msgid "plugins.generic.customLocale.search.fileName"
+msgstr "Hae tiedostonimistä"
+
+msgid "plugins.generic.customLocale.description"
+msgstr ""
+"Tämä lisäosa mahdollistaa järjestelmän käyttöliitymätekstien muokkaamisen."
+
+msgid "plugins.generic.customLocale.name"
+msgstr "Mukautettu lokalisointi -lisäosa"
