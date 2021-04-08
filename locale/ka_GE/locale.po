@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 10:55+0000\n"
+"PO-Revision-Date: 2021-04-09 08:55+0000\n"
 "Last-Translator: Dimitri Gogelia <dimitri.gogelia@iliauni.edu.ge>\n"
 "Language-Team: Georgian <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ka_GE/>\n"
@@ -25,3 +25,63 @@ msgstr "მორგება"
 
 msgid "plugins.generic.customLocale.files.pageTitle"
 msgstr "ფაილის სახელი"
+
+msgid "plugins.generic.customLocale.name"
+msgstr "ენის მორგებული პლაგინი"
+
+msgid "plugins.generic.customLocale.description"
+msgstr ""
+"ეს პლაგინი საშუალებას გაძლევთ ნაგულისხმევი ინტერფეისის ტექსტის "
+"პერსონალიზებას, რომელსაც იყენებენ OJS და OMP."
+
+msgid "plugins.generic.customLocale.search.fileName"
+msgstr "ფაილების სახელების ძებნა"
+
+msgid "plugins.generic.customLocale.search.key"
+msgstr "გასაღების ძიება"
+
+msgid "plugins.generic.customLocale.saveAndContinue"
+msgstr "შენახვა და გაგრძელება"
+
+msgid "plugins.generic.customLocale.noneCreated"
+msgstr "ფაილები ვერ მოიძებნა."
+
+msgid "plugins.generic.customLocale.printChanges"
+msgstr "ჩამოტვირთეთ დოკუმენტაცია"
+
+msgid "plugins.generic.customLocale.localeKey.description"
+msgstr "შეიყვანეთ ენის გასაღები."
+
+msgid "grid.action.printChanges"
+msgstr "ჩამოტვირთეთ ფაილი, რომელშიც ჩამოთვლილია ყველა მორგება."
+
+msgid "plugins.generic.customLocale.file.editHeader"
+msgstr "ენის გასაღებების მორგება"
+
+msgid "plugins.generic.customLocale.file.edit"
+msgstr "ჩასწორება: {$filename}"
+
+msgid "plugins.generic.customLocale.file.reference"
+msgstr "ნაგულისხმევი ტექსტი"
+
+msgid "plugins.generic.customLocale.file.custom"
+msgstr "მორგებული ტექსტი"
+
+msgid "plugins.generic.customLocale.customLocale"
+msgstr "ენები"
+
+msgid "plugins.generic.customLocale.customLocaleFiles"
+msgstr "ენის ფაილები"
+
+msgid "plugins.generic.customLocale.searchDescription"
+msgstr "აქ შეიყვანეთ ენის სრული გასაღები. ნაპოვნი გასაღებები მონიშნულია."
+
+msgid "plugins.generic.customLocale.fileDescription"
+msgstr ""
+"შეიყვანეთ ტექსტი შესაბამის ტექსტურ ველში. მორგებული ტექსტის ველი ცარიელი "
+"დატოვეთ, თუ ნაგულისხმევი OJS/OMP ტექსტი უნდა იქნას გამოყენებული."
+
+msgid "plugins.generic.customLocale.searchResultsCount"
+msgstr ""
+"ნაჩვენებია {{ currentLocaleKeys.length }}: {{ filteredKeysList.length }} "
+"შედეგები: \"{{ phraseSearched }}\"."
