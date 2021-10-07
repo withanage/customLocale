@@ -28,7 +28,7 @@ https://github.com/pkp/pkp-lib/issues/5169
 
 System Requirements
 -------------------
-This plugin is compatible with OJS 3.2 and OMP 3.2.
+This plugin is compatible with OJS 3.3 and OMP 3.3.
 
 Installation
 ------------
