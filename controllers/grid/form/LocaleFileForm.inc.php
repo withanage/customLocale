@@ -37,7 +37,7 @@ class LocaleFileForm extends Form {
 	/**
 	 * @copydoc Form::fetch
 	 */
-	function fetch($request, $template = null, $display = false) {
+	function fetch($request) {
 		$file = $this->filePath;
 		$locale = $this->locale;
 		if (!CustomLocaleAction::isLocaleFile($locale, $file)) throw new Exception("$file is not a locale file!");
@@ -66,7 +66,7 @@ class LocaleFileForm extends Form {
 			'referenceLocaleContentsArray' => $referenceLocaleContentsArray,
 		));
 
-		return parent::fetch($request, $template, $display);
+		return parent::fetch($request);
 	}
 }
 

@@ -21,9 +21,23 @@ class CustomLocaleAction {
 		$localeFiles = AppLocale::makeComponentMap($locale);
 		$plugins = PluginRegistry::loadAllPlugins();
 
-		foreach ($plugins as $plugin) {
+		foreach (array_keys($plugins) as $key) {
+
+			$plugin =& $plugins[$key];
 			$localeFile = $plugin->getLocaleFilename($locale);
-			$localeFiles = array_merge($localeFiles, $localeFile);
+			$localeFilePath = $localeFile[0];
+
+			if (file_exists($localeFilePath)) {
+				if (!empty($localeFile)) {
+					if (is_scalar($localeFile)) {
+						$localeFiles[] = $localeFile;
+					}
+					if (is_array($localeFile)) {
+						$localeFiles = array_merge($localeFiles, $localeFile);
+					}
+				}
+			}
+			unset($plugin);
 		}
 		return $localeFiles;
 	}
@@ -38,5 +52,6 @@ class CustomLocaleAction {
 		if (in_array($filename, self::getLocaleFiles($locale))) return true;
 		return false;
 	}
+
 }
 
