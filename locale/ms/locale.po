@@ -1,7 +1,7 @@
 # Studiorimau <studiorimau@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-05 10:06+0000\n"
+"PO-Revision-Date: 2021-10-26 00:23+0000\n"
 "Last-Translator: Studiorimau <studiorimau@gmail.com>\n"
 "Language-Team: Malay <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ms/>\n"
@@ -20,11 +20,11 @@ msgstr ""
 msgid "plugins.generic.customLocale.fileDescription"
 msgstr ""
 "Masukkan teks ke dalam medan teks custom yang sesuai. Biarkan bidang teks "
-"tersuai kosong jika teks OJS / OMP lalai harus digunakan."
+"custom kosong jika teks OJS / OMP lalai harus digunakan."
 
 msgid "plugins.generic.customLocale.searchDescription"
 msgstr ""
-"Masukkan kunci locale yang lengkap di sini. Kekunci yang dijumpai "
+"Masukkan kunci locale(bahasa) yang lengkap di sini. Kekunci yang dijumpai "
 "diserlahkan."
 
 msgid "plugins.generic.customLocale.customLocaleFiles"
@@ -46,7 +46,7 @@ msgid "plugins.generic.customLocale.file.edit"
 msgstr "Menyunting {$filename}"
 
 msgid "plugins.generic.customLocale.file.editHeader"
-msgstr "Ubah Suai kunci locale"
+msgstr "Ubah Suai kunci locale(bahasa)"
 
 msgid "grid.action.printChanges"
 msgstr "Muat turun fail yang menyenaraikan semua pengubahsuain yang anda buat."
@@ -64,7 +64,7 @@ msgid "plugins.generic.customLocale.path"
 msgstr "Tindakan"
 
 msgid "plugins.generic.customLocale.localeKey.description"
-msgstr "Masukkan keseluruhan kunci locale untuk mencari."
+msgstr "Masukkan keseluruhan kunci locale(bahasa) untuk mencari."
 
 msgid "plugins.generic.customLocale.printChanges"
 msgstr "Muat turun dokumentasi"
