@@ -1,8 +1,9 @@
 # Albena Vassileva <albena.ava@gmail.com>, 2022.
+# Cyril Kamburov <cc@intermedia.bg>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-04 12:42+0000\n"
-"Last-Translator: Albena Vassileva <albena.ava@gmail.com>\n"
+"PO-Revision-Date: 2022-04-06 01:23+0000\n"
+"Last-Translator: Cyril Kamburov <cc@intermedia.bg>\n"
 "Language-Team: Bulgarian <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/bg_BG/>\n"
 "Language: bg_BG\n"
@@ -67,10 +68,10 @@ msgid "plugins.generic.customLocale.localeKey.description"
 msgstr "Въведете целия ключ на език, който да търсите."
 
 msgid "plugins.generic.customLocale.printChanges"
-msgstr "Изтегляне на документация"
+msgstr "Изтегляне на промените."
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "Няма намерени файлове."
+msgstr "Няма езикови версии."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Запази и продължи"
@@ -88,3 +89,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Плъгин за персонализиран език"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Само променени"
