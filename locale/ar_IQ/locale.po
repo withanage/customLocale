@@ -1,6 +1,7 @@
+# M. Ali <vorteem@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-25 10:51+0000\n"
+"PO-Revision-Date: 2022-04-10 13:57+0000\n"
 "Last-Translator: M. Ali <vorteem@gmail.com>\n"
 "Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ar_IQ/>\n"
@@ -42,7 +43,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "التخصيص"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "تعذر العثور على أي ملفات."
+msgstr "تعذر العثور على أي لغات."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "إحفظ واستمر"
@@ -54,3 +55,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "إضافة اللغة المخصصة"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "المعدلة فقط"
