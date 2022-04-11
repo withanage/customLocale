@@ -1,6 +1,7 @@
+# Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-22 05:51+0000\n"
+"PO-Revision-Date: 2022-04-12 09:57+0000\n"
 "Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
 "Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/tr_TR/>\n"
@@ -41,7 +42,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "Özelleştir"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "Dosya bulunamadı."
+msgstr "Dil bulunamadı."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Kaydet ve devam et"
@@ -53,3 +54,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Özel Dil Eklentisi"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Sadece değiştirilmiş"
