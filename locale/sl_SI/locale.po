@@ -1,6 +1,7 @@
+# Primož Svetek <primoz.svetek@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-14 12:52+0000\n"
+"PO-Revision-Date: 2022-04-19 14:57+0000\n"
 "Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
 "Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/sl_SI/>\n"
@@ -46,7 +47,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "Prilagodi"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "Nobena datoteka ni bila najdena."
+msgstr "Nobenega prevoda ni na voljo."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Shrani in nadaljuj"
@@ -58,3 +59,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Vtičnik za lokalizacijo po meri"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Samo spremenjeni"
