@@ -1,6 +1,7 @@
+# Dimitri Gogelia <dimitri.gogelia@iliauni.edu.ge>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-09 08:55+0000\n"
+"PO-Revision-Date: 2022-04-22 07:58+0000\n"
 "Last-Translator: Dimitri Gogelia <dimitri.gogelia@iliauni.edu.ge>\n"
 "Language-Team: Georgian <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ka_GE/>\n"
@@ -44,10 +45,10 @@ msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "შენახვა და გაგრძელება"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "ფაილები ვერ მოიძებნა."
+msgstr "ენები ვერ მოიძებნა."
 
 msgid "plugins.generic.customLocale.printChanges"
-msgstr "ჩამოტვირთეთ დოკუმენტაცია"
+msgstr "ცვლილებების ჩამოტვირთვა."
 
 msgid "plugins.generic.customLocale.localeKey.description"
 msgstr "შეიყვანეთ ენის გასაღები."
@@ -85,3 +86,6 @@ msgid "plugins.generic.customLocale.searchResultsCount"
 msgstr ""
 "ნაჩვენებია {{ currentLocaleKeys.length }}: {{ filteredKeysList.length }} "
 "შედეგები: \"{{ phraseSearched }}\"."
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "მხოლოდ შეცვლილი"
