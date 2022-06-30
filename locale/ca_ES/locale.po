@@ -1,6 +1,7 @@
+# Jordi LC <jordi.lacruz@uab.cat>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-02 13:51+0000\n"
+"PO-Revision-Date: 2022-07-01 09:31+0000\n"
 "Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
 "Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ca_ES/>\n"
@@ -48,7 +49,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "Personalitzar"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "No s'ha trobat cap arxiu."
+msgstr "No s'ha trobat cap configuració regional."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Guardar i continuar"
@@ -60,3 +61,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Mòdul de configuració regional personalitzada"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Només els modificats"
