@@ -74,7 +74,7 @@ class CustomLocaleGridHandler extends GridHandler {
 				$loader = new Gettext\Loader\PoLoader();
 				$translations = $loader->loadFile($customFilePath);
 			} else {
-				$translations = \Gettext\Translations::create(null, $locale);
+				$translations = new \Gettext\Translations();
 			}
 
 			foreach ($changes as $key => $value) {
