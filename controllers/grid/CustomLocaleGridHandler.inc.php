@@ -82,10 +82,10 @@ class CustomLocaleGridHandler extends GridHandler {
 				if (!empty($value)) {
 					$translation = $translations->find('', $key);
 					if ($translation) {
-						$translation->translate($value);
+						$translation->setTranslation($value);
 					} else {
 						$translation = \Gettext\Translation::create('', $key);
-						$translation->translate($value);
+						$translation->setTranslation($value);
 						$translations->add($translation);
 					}
 				} else {
