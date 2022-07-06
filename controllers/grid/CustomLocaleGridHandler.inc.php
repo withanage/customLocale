@@ -71,8 +71,7 @@ class CustomLocaleGridHandler extends GridHandler {
 			$customFilePath = "$customFilesDir/$filename";
 
 			if ($contextFileManager->fileExists($customFilePath)) {
-				$loader = new Gettext\Loader\PoLoader();
-				$translations = $loader->loadFile($customFilePath);
+				$translations = Gettext\Translations::fromPoFile($customFilePath);
 			} else {
 				$translations = new \Gettext\Translations();
 			}
@@ -95,8 +94,7 @@ class CustomLocaleGridHandler extends GridHandler {
 			}
 
 			$contextFileManager->mkdirtree(dirname($customFilePath));
-			$poGenerator = new Gettext\Generator\PoGenerator();
-			$poGenerator->generateFile($translations, $customFilePath);
+			$translations->toPoFile($customFilePath);
 
 			// Create success notification and close modal on save
 			$notificationMgr = new NotificationManager();
