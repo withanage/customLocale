@@ -1,7 +1,8 @@
+# Viveka Svensson <viveka.svensson@lnu.se>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-29 15:34+0000\n"
-"Last-Translator: Magnus Annemark <magnus.annemark@ub.lu.se>\n"
+"PO-Revision-Date: 2022-07-08 01:56+0000\n"
+"Last-Translator: Viveka Svensson <viveka.svensson@lnu.se>\n"
 "Language-Team: Swedish <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/sv_SE/>\n"
 "Language: sv_SE\n"
@@ -21,7 +22,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "Anpassa"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "Inga filer hittades."
+msgstr "Inget språk hittades."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Spara och fortsätt"
@@ -70,7 +71,7 @@ msgid "plugins.generic.customLocale.localeKey.description"
 msgstr "Sök efter en hel språknyckel."
 
 msgid "plugins.generic.customLocale.printChanges"
-msgstr "Ladda ner anpassningar"
+msgstr "Ladda ner ändringar."
 
 msgid "plugins.generic.customLocale.search.key"
 msgstr "Sök efter nyckel"
@@ -79,3 +80,6 @@ msgid "plugins.generic.customLocale.description"
 msgstr ""
 "Denna plugin gör det möjligt att anpassa textsträngar i OJS och OMPs "
 "användargränssnitt."
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Bara ändrad"
