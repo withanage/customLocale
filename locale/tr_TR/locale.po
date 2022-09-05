@@ -1,7 +1,7 @@
 # Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-12 09:57+0000\n"
+"PO-Revision-Date: 2022-09-06 13:50+0000\n"
 "Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
 "Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/tr_TR/>\n"
@@ -10,11 +10,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.13.1\n"
 
 msgid "plugins.generic.customLocale.searchResultsCount"
 msgstr ""
-"\"{{ phraseSearched }}\" için  {{ filteredKeysList.length }} sonuçtan {{ "
+"\"{{ phraseSearched }}\" için {{ filteredKeysList.length }} sonuçtan {{ "
 "currentLocaleKeys.length }} gösteriliyor."
 
 msgid "plugins.generic.customLocale.customLocaleFiles"
