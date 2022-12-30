@@ -1,8 +1,9 @@
 # Studiorimau <studiorimau@gmail.com>, 2021.
+# Mohamad Shabilullah <shabilhamid91@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-26 00:23+0000\n"
-"Last-Translator: Studiorimau <studiorimau@gmail.com>\n"
+"PO-Revision-Date: 2022-12-31 05:02+0000\n"
+"Last-Translator: Mohamad Shabilullah <shabilhamid91@gmail.com>\n"
 "Language-Team: Malay <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/ms/>\n"
 "Language: ms\n"
@@ -10,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.13.1\n"
 
 msgid "plugins.generic.customLocale.searchResultsCount"
 msgstr ""
@@ -67,7 +68,7 @@ msgid "plugins.generic.customLocale.localeKey.description"
 msgstr "Masukkan keseluruhan kunci locale(bahasa) untuk mencari."
 
 msgid "plugins.generic.customLocale.printChanges"
-msgstr "Muat turun dokumentasi"
+msgstr "Muat turun perubahan."
 
 msgid "plugins.generic.customLocale.noneCreated"
 msgstr "Fail tidak dijumpai."
@@ -88,3 +89,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Plugin Bahasa Custom"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Hanya diubah suai"
