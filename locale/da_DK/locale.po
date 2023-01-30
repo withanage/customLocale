@@ -1,7 +1,8 @@
+# Alexandra Fogtmann-Schulz <alfo@kb.dk>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-25 10:51+0000\n"
-"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"PO-Revision-Date: 2022-04-06 01:23+0000\n"
+"Last-Translator: Alexandra Fogtmann-Schulz <alfo@kb.dk>\n"
 "Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
 "customLocale/da_DK/>\n"
 "Language: da_DK\n"
@@ -41,7 +42,7 @@ msgid "plugins.generic.customLocale.customize"
 msgstr "Tilpas"
 
 msgid "plugins.generic.customLocale.noneCreated"
-msgstr "Der blev ikke fundet nogen filer."
+msgstr "Der blev ikke fundet nogen sprog."
 
 msgid "plugins.generic.customLocale.saveAndContinue"
 msgstr "Gem og fortsæt"
@@ -53,3 +54,6 @@ msgstr ""
 
 msgid "plugins.generic.customLocale.name"
 msgstr "Custom Locale Plugin"
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Kun ændret"
