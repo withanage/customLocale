@@ -62,6 +62,8 @@ class CustomLocaleGridHandler extends GridHandler {
 		$locale = $args['locale'];
 		$filename = $args['key'];
 
+		if (!$request->checkCSRF()) return new JSONMessage(false);
+
 		// save changes
 		$changes = (array) $args['changes'];
 		if (!empty($changes)) {
