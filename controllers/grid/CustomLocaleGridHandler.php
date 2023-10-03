@@ -74,6 +74,8 @@ class CustomLocaleGridHandler extends GridHandler
     {
         ['locale' => $locale, 'changes' => $changes] = $args;
 
+	if (!$request->checkCSRF()) return new JSONMessage(false);
+
         if (!count($changes)) {
             $this->setupTemplate($request);
             // Create and present the edit form
