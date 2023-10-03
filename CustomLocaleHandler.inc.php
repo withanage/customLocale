@@ -3,8 +3,8 @@
 /**
  * @file CustomLocaleHandler.inc.php
  *
- * Copyright (c) 2016-2020 Language Science Press
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2016-2023 Language Science Press
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class CustomLocaleHandler
  */
