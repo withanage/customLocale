@@ -161,7 +161,8 @@ class CustomLocaleGridHandler extends GridHandler
     public function loadData($request, $filter): array
     {
         $gridDataElements = [];
-        $locales = $request->getContext()->getSupportedFormLocaleNames();
+        $context = $request->getContext();
+        $locales = $context ? $context->getSupportedFormLocaleNames() : $request->getSite()->getSupportedLocaleNames();
         foreach (array_keys($locales) as $i => $locale) {
             $gridDataElements[] = new CustomLocale($i, $locale, $locales[$locale]);
         }

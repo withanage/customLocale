@@ -56,7 +56,7 @@ class CustomLocalePlugin extends GenericPlugin
      */
     public function setupLocalizationOverriding(): void
     {
-        Locale::registerPath(static::getStoragePath(), PHP_INT_MAX);
+        if (is_dir($path = static::getStoragePath())) Locale::registerPath($path, PHP_INT_MAX);
     }
 
     /**
@@ -166,7 +166,7 @@ class CustomLocalePlugin extends GenericPlugin
     public static function getContextFileManager(): ContextFileManager
     {
         $context = Application::get()->getRequest()->getContext();
-        return new ContextFileManager($context->getId());
+        return new ContextFileManager($context ? $context->getId() : Application::CONTEXT_SITE);
     }
 
     /**
