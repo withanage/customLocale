@@ -1,0 +1,60 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-26 09:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/plugins/"
+"customLocale/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.customLocale.name"
+msgstr "Плагін користувацької локалізації"
+
+msgid "plugins.generic.customLocale.description"
+msgstr ""
+"Цей плагін дозволяє налаштувати текст інтерфейсу користувача за "
+"замовчуванням, який використовується OJS та OMP."
+
+msgid "plugins.generic.customLocale.saveAndContinue"
+msgstr "Зберегти і продовжити"
+
+msgid "plugins.generic.customLocale.noneCreated"
+msgstr "Жодної локалізації не знайдено."
+
+msgid "plugins.generic.customLocale.customize"
+msgstr "Користувацьке налаштування"
+
+msgid "plugins.generic.customLocale.printChanges"
+msgstr "Завантажити зміни."
+
+msgid "plugins.generic.customLocale.file.editHeader"
+msgstr "Настроювання ключів локалізації"
+
+msgid "plugins.generic.customLocale.file.edit"
+msgstr "{$filename} перебуває на редагуванні"
+
+msgid "plugins.generic.customLocale.file.reference"
+msgstr "Текст за замовчуванням"
+
+msgid "plugins.generic.customLocale.file.custom"
+msgstr "Користувацький текст"
+
+msgid "plugins.generic.customLocale.customLocale"
+msgstr "Локалізації"
+
+msgid "plugins.generic.customLocale.customLocaleFiles"
+msgstr "Файли локалізації"
+
+msgid "plugins.generic.customLocale.searchResultsCount"
+msgstr ""
+"Відображаються {{ currentLocaleKeys.length }} з {{ filteredKeysList.length }}"
+" результатів для \"{{ phraseSearched }}\"."
+
+msgid "plugins.generic.customLocale.file.onlyModified"
+msgstr "Тільки змінені"

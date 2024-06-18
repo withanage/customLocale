@@ -1,11 +1,11 @@
-# Pavel Pisklakov <ppv1979@mail.ru>, 2022.
+# Pavel Pisklakov <ppv1979@mail.ru>, 2022, 2023.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-05 02:50+0000\n"
+"PO-Revision-Date: 2023-04-29 17:01+0000\n"
 "Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
 "Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/"
-"customLocale/ru_RU/>\n"
-"Language: ru_RU\n"
+"customLocale/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,11 +50,11 @@ msgstr "Сохранить и продолжить"
 
 msgid "plugins.generic.customLocale.description"
 msgstr ""
-"Этот плагин позволяет откорректировать под себя текст пользовательского "
+"Этот модуль позволяет откорректировать под себя текст пользовательского "
 "интерфейса в OJS и OMP, используемый по умолчанию."
 
 msgid "plugins.generic.customLocale.name"
-msgstr "Плагин «Пользовательский язык»"
+msgstr "Модуль «Пользовательский язык»"
 
 msgid "plugins.generic.customLocale.file.onlyModified"
 msgstr "Только изменённые"
