@@ -2,7 +2,9 @@
 - Version: (see version.xml)
 - Author: Carola Fanselow (updates by Alec Smecher, Erik Hanson)
 
-[![Build Status](https://travis-ci.org/pkp/customLocale.svg?branch=main)](https://travis-ci.org/pkp/customLocale)
+ Applications | main  | 3.4.0       | 3.3.0  |
+| ---- | ---- | ---- |----- |
+| OJS/OMP/OS      | [![customlocale](https://github.com/pkp/customlocale/actions/workflows/main.yml/badge.svg)](https://github.com/pkp/customlocale/actions/workflows/main.yml)                   | [![customlocale](https://github.com/pkp/customlocale/actions/workflows/stable-3_4_0.yml/badge.svg)](https://github.com/pkp/customlocale/actions/workflows/stable-3_4_0.yml)                   | [![customlocale](https://github.com/pkp/customlocale/actions/workflows/stable-3_3_0.yml/badge.svg)](https://github.com/pkp/customlocale/actions/workflows/stable-3_3_0.yml)             |
 
 ## About
 
